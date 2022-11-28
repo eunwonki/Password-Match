@@ -11,6 +11,8 @@
 		66CBA2542933AAAC00D513DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBA2532933AAAC00D513DC /* ContentView.swift */; };
 		66CBA2562933AAAD00D513DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CBA2552933AAAD00D513DC /* Assets.xcassets */; };
 		66CBA2592933AAAD00D513DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CBA2582933AAAD00D513DC /* Preview Assets.xcassets */; };
+		E3F1EB9F29346B5A008D48BF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1EB9E29346B5A008D48BF /* ViewModel.swift */; };
+		E3F1EBA129347066008D48BF /* ContentViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1EBA029347066008D48BF /* ContentViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		66CBA2532933AAAC00D513DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66CBA2552933AAAD00D513DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CBA2582933AAAD00D513DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3F1EB9E29346B5A008D48BF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E3F1EBA029347066008D48BF /* ContentViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				66CBA2512933AAAC00D513DC /* PasswordMatchApp.swift */,
 				66CBA2532933AAAC00D513DC /* ContentView.swift */,
+				E3F1EBA029347066008D48BF /* ContentViewExtension.swift */,
+				E3F1EB9E29346B5A008D48BF /* ViewModel.swift */,
 				66CBA2552933AAAD00D513DC /* Assets.xcassets */,
 				66CBA2572933AAAD00D513DC /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F1EBA129347066008D48BF /* ContentViewExtension.swift in Sources */,
 				66CBA2542933AAAC00D513DC /* ContentView.swift in Sources */,
+				E3F1EB9F29346B5A008D48BF /* ViewModel.swift in Sources */,
 				66CBA2522933AAAC00D513DC /* PasswordMatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
